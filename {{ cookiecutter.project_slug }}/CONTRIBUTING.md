@@ -10,5 +10,5 @@ Bash and Shellcheck installed on your system.
 To execute the linter, run:
 
 ```shell
-shellcheck
+shellcheck bin/* libexec/*.bash
 ```
