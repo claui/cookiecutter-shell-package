@@ -14,7 +14,7 @@ Direct your favorite
 
 ## Usage
 
-(tbd)
+See [`USAGE.md`](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}/blob/main/USAGE.md) for details.
 
 ## Contributing to {{ cookiecutter.project_title }}
 
