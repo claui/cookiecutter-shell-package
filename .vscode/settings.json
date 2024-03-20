@@ -12,8 +12,11 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "files.associations": {
+    "**/?? cookiecutter.project_slug ??/**/.gitignore": "jinja",
     "**/?? cookiecutter.project_slug ??/**/bin/*": "shellscript",
     "**/?? cookiecutter.project_slug ??/**/bin/.editorconfig": "editorconfig",
+    "**/?? cookiecutter.project_slug ??/**/debian/install": "jinja",
+    "**/?? cookiecutter.project_slug ??/**/debian/local/binstub": "jinja-shell",
     "**/?? cookiecutter.project_slug ??/**/libexec/*.bash": "jinja-shell",
     "**/?? cookiecutter.project_slug ??/**/*.md": "jinja-md",
     "**/?? cookiecutter.project_slug ??/**/*.json": "jinja-json",

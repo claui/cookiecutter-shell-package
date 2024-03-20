@@ -16,6 +16,9 @@ indent_size = 16
 end_of_line = lf
 trim_trailing_whitespace = false
 
+[rules]
+indent_style = tab
+
 [*.bash]
 end_of_line = lf
 indent_size = 2
