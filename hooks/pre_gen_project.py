@@ -1,7 +1,7 @@
 """
 {# See https://wiki.archlinux.org/title/PKGBUILD#license #}
 {%
-    set pkgbuild_license_dict = {
+    set spdx_license_dict = {
         "Apache-2.0": "Apache-2.0",
         "Proprietary": "LicenseRef-custom",
     }
@@ -12,8 +12,8 @@
             "__" + regex_replace(cookiecutter.first_executable_name, '[^A-Za-z0-9_]+', '_'),
         "package_name":
             cookiecutter.project_slug.replace('_', '-'),
-        "pkgbuild_license":
-            pkgbuild_license_dict[cookiecutter.project_license],
+        "spdx_license":
+            spdx_license_dict[cookiecutter.project_license],
     })
 }}
 """

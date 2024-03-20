@@ -1,0 +1,9 @@
+#!/usr/bin/dh-exec
+
+# Library files and internal binstubs
+bin/* usr/share/{{ cookiecutter.package_name }}/bin/
+libexec/* usr/share/{{ cookiecutter.package_name }}/libexec/
+share/* usr/share/{{ cookiecutter.package_name }}/share/
+
+# External binstubs
+debian/local/binstub => usr/bin/{{ cookiecutter.package_name }}
