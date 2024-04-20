@@ -20,6 +20,7 @@
     "**/?? cookiecutter.project_slug ??/**/libexec/*.bash": "jinja-shell",
     "**/?? cookiecutter.project_slug ??/**/*.md": "jinja-md",
     "**/?? cookiecutter.project_slug ??/**/*.json": "jinja-json",
+    "**/?? cookiecutter.project_slug ??/**/*.toml": "jinja-toml",
     "**/?? cookiecutter.project_slug ??/**/*.yml": "jinja-yaml",
     "**/hooks/*_gen_project.py": "jinja-py"
   },
