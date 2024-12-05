@@ -38,3 +38,5 @@ man_pages = [
         1,
     )
 ]
+
+man_show_urls = True
