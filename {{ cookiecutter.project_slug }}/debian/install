@@ -6,4 +6,4 @@ libexec/* usr/share/{{ cookiecutter.package_name }}/libexec/
 share/* usr/share/{{ cookiecutter.package_name }}/share/
 
 # External binstubs
-debian/local/binstub => usr/bin/{{ cookiecutter.package_name }}
+debian/local/binstub => usr/bin/{{ cookiecutter.first_executable_name }}
